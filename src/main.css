@@ -1,0 +1,137 @@
+html, body { height: 100%; }
+
+
+.header {
+    height: 40%; 
+    width: 100%;  
+    background-image: url("markus-spiske-207946-unsplash.jpg"); 
+    background-size: 100%; 
+    text-align: left; 
+    background-repeat: no-repeat;
+ 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+
+ul li {
+    list-style-type:none;
+}
+
+.headerText {
+    padding-left: 3%;
+    padding-top: 4%;
+
+}
+
+.headerText h1 {
+    color: white;
+
+}
+
+.headerText h2{
+    color: #dcdfe5;
+}
+
+
+.tagline{
+
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    
+}
+
+.tagline h3, p {
+
+}
+
+.skills {
+    color: white; 
+    background-color: #2f4159;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+    
+} 
+
+.skills h3{
+    padding-top: 1%; 
+}
+
+.skills ul {
+
+    padding-bottom: 1%; 
+
+}
+
+.specSkills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.specSkills ul {
+    padding-left: 0;
+}
+
+.qualifications {
+
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+
+.qualifications h3{
+    padding-top: 1%; 
+}
+
+.qualifications ul {
+    
+        padding-bottom: 1%; 
+        padding-left: 0;
+    
+}
+
+.jobHistory {
+
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: white; 
+    background-color: #2f4159;
+}
+
+.jobHistory h3 {
+
+    padding-top: 1%;    
+}
+
+.jobHistory ul {
+    padding-bottom: 1%;
+    padding-left: 0;
+}
+
+.projects {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    
+
+}
+
+.contact {
+    padding-bottom: 2%;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background-color: #2f4159;
+    color: white;
+}
+
+.contact a{
+
+    color: white;
+
+}
+.icons{
+}
+
+.icons .linkedIn {
+    padding-right: 1%;
+
+
+}
